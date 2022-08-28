@@ -1,0 +1,57 @@
+.media {
+	height: 0;
+	padding-top: 56.67%;
+	background-color: rgba(0, 0, 0, 0.5);
+	background-blend-mode: darken;
+}
+
+.border {
+	border: solid;
+}
+
+.fullHeightCard {
+	height: 100%;
+}
+
+.card {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	border-radius: 1rem;
+	height: 100%;
+	position: relative;
+}
+
+.overlay {
+	position: absolute;
+	top: 1.5rem;
+	left: 1.5rem;
+	color: white;
+}
+
+.overlay2 {
+	position: absolute;
+	top: 1.5rem;
+	right: 1.5rem;
+	color: white;
+}
+
+.grid {
+	display: flex;
+}
+
+.details {
+	display: flex;
+	justify-content: space-between;
+	margin: 1.25rem;
+}
+
+.title {
+	padding: 0 1rem;
+}
+
+.cardAction {
+	padding: 0 1rem 0.5rem 1rem;
+	display: flex;
+	justify-content: space-between;
+}
